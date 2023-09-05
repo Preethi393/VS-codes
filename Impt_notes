@@ -1,0 +1,11 @@
+Grid search looks at every possible combination of hyperparameters to find the best model, random search only selects and tests a random combination of hyperparameters.
+
+Support Vector Machines are discriminative because they fit a hyperplane which separates two classes.
+A discriminative model directly learns the conditional probability distribution P(y|x).
+Generative model learns the joint probability P(x,y) and then transform it to P(y|x) by using the Bayes rule.
+
+Removing outliers will not help because one of the properties of SVM is that it effectively ignores all the data that is far from the decision boundary,
+assuming that the two classes are linearly separable in your feature space. 
+
+SVMs are effective models for binary classification tasks, although by default, they are not effective at imbalanced classification
+
